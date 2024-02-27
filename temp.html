@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empower All Souls Trust</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" id="mainNav">
+        <a class="navbar-brand">
+            <span class="logo">Empower All Souls</span>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu 
+        <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <!-- Navbar Item List, add more if desired-->
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <!-- Hero Image -->
+    <header>
+        <div class="hero">
+            <div class="hero-heading text-uppercase">
+                Empower All Souls Trust     <!-- Insert the Motto or Tagline for the NGO -->
+            </div>
+            <a class="btn btn-danger btn-lg text-uppercase" href="#">Find Out More</a>
+        </div>
+    </header>
+    <!-- End of Hero  Image -->
+
+    <!-- Major Causes (First Panel after Scrolling Down) -->
+    <section class="mt-5 page-section" id="causes">
+        <div class="container">
+            <!-- Title of Panel Starts -->
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase font-weight-bold">Major Causes</h2>
+                <h3 class="section-subheading text-muted">This is the text following Major Causes</h3>
+            </div>
+            <!-- End of Panel Title -->
+
+            <!-- Panel Grid Begins -->
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-danger"></i> <!-- For the icon gola -->
+                        <i class="fas fa-hand-holding-usd fa-stack-1x fa-inverse"></i> <!-- Change the icon here -->
+                    </span>
+                    <h4 class="my-3"> Give Donations </h4> <!-- Change the heading of the grid here -->
+                    <p class="text-muted"> Text regarding heading to be filled here </p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-warning"></i> <!-- For the icon gola -->
+                        <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i> <!-- Change the icon here -->
+                    </span>
+                    <h4 class="my-3"> Give Inspiration </h4> <!-- Change the heading of the grid here -->
+                    <p class="text-muted"> Text regarding heading to be filled here </p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-success"></i> <!-- For the icon gola -->
+                        <i class="fas fa-tshirt fa-stack-1x fa-inverse"></i> <!-- Change the icon here -->
+                    </span>
+                    <h4 class="my-3"> Become Volunteer </h4> <!-- Change the heading of the grid here -->
+                    <p class="text-muted"> Text regarding heading to be filled here </p>
+                </div>
+            </div>
+            <!-- Panel Grid Ends -->
+        </div>
+    </section>
+    <!-- End of Major Causes (First Panel) -->
+
+    <!-- Bootstrap Modals (Windows with Projects) Starts -->
+    <section class="proj-section bg-secondary py-5" id="project">
+        <div class="container">
+            <!-- Code for heading and subheading -->
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase"> Projects </h2>
+                <h3 class="section-subheading text-light"> This is the text following Projects </h3>
+            </div>
+            <!-- End of heading and subheading -->
+
+            <!-- Code for the Project Windows -->
+            <div class="row">
+            <!-- First Project Window -->
+            <div class="col-lg-4 col-sm-6 mb-6">
+                <div class="project-item">
+                    <a class="project-link" data-toggle="modal" href="#projectModal1">
+                        <!-- <div class="project-hover">
+                            <div class="project-hover-content"> -->
+                        <div class="image-background1">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-plus fa-3x"></i> <!-- Icon for the plus sign -->
+                                </div>
+                            </div>
+                        </div>
+                            <!-- </div>
+                        </div> -->
+                        <!-- <img src="./Images/stock_image_1.jpg" class="img-fluid" alt=""> Image for the project -->
+                        <div class="project-caption">
+                            <div class="project-caption-heading">
+                                Project Name <!-- Name of the project -->
+                            </div>
+                            <div class="project-caption-subheading text-dark">
+                                Project Description <!-- Description of the project -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End of First Project Window -->
+            
+            <!-- Second Project Window -->
+                <div class="col-lg-4 col-sm-6 mb-6">
+                    <div class="project-item">
+                        <a class="project-link" data-toggle="modal" href="#projectModal2">
+                            <!-- <div class="project-hover">
+                                <div class="project-hover-content"> -->
+                            <div class="image-background2">
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <i class="fas fa-plus fa-3x"></i> <!-- Icon for the plus sign -->
+                                    </div>
+                                </div>
+                            </div>
+                                <!-- </div>
+                            </div> -->
+                            <!-- <img src="./Images/stock_image_1.jpg" class="img-fluid" alt=""> Image for the project -->
+                            <div class="project-caption">
+                                <div class="project-caption-heading">
+                                    Project Name <!-- Name of the project -->
+                                </div>
+                                <div class="project-caption-subheading text-dark">
+                                    Project Description <!-- Description of the project -->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <!-- End of Second Project Window -->
+
+            <!-- Third Project Window -->
+            <div class="col-lg-4 col-sm-6 mb-6">
+                <div class="project-item">
+                    <a class="project-link" data-toggle="modal" href="#projectModal3">
+                        <!-- <div class="project-hover">
+                            <div class="project-hover-content"> -->
+                        <div class="image-background3">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-plus fa-3x"></i> <!-- Icon for the plus sign -->
+                                </div>
+                            </div>
+                        </div>
+                            <!-- </div>
+                        </div> -->
+                        <!-- <img src="./Images/stock_image_1.jpg" class="img-fluid" alt=""> Image for the project -->
+                        <div class="project-caption">
+                            <div class="project-caption-heading">
+                                Project Name <!-- Name of the project -->
+                            </div>
+                            <div class="project-caption-subheading text-dark">
+                                Project Description <!-- Description of the project -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Third Project Window -->       
+            </div>
+            <!-- Project Windows ends -->
+        </div>
+    </section>
+
+    <!-- Modals pop-up -->
+    <!-- Modal 1 -->
+    <div class="project-modal modal-fade" id="projectModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="model-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <i class="fas fa-window-close"></i> <!-- Icon for the cross sign -->
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <h2 class="text-uppercase"> Project Name </h2> <!-- Name of the project -->
+                            <p class="item-intro text-dark"> Project Description </p> <!-- Description of the project -->
+                            <img class="img-fluid d-block mx-auto" src="./Images/stock_image_1.jpg" alt=""> <!-- Image for the project -->
+                            <p> Text regarding the project </p> <!-- Text regarding the project -->
+                            <ul class="list-inline">
+                                <li> Date: Date of the project </li>
+                                <li> Location: Location of the project </li>
+                                <li> Category: Category of the project </li>
+                            </ul>
+                            <button class="btn btn-danger" type="button" data-dismiss="modal">
+                                <i class="fas fa-times mr-1"></i> <!-- Icon for the cross sign -->
+                                Close Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

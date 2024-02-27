@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; /* video mai yeh body tag mai daala h */
+}
+.logo {
+    color: #000;
+}
+.navbar-custom {
+    background: rgb(227, 40, 3);
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+/* End of Navbar */
+
+/* Hero image */
+.hero {
+    background-image: url("./Images/stock_image_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    line-height: 3.25rem;
+    color:#fff;
+}
+/* End of Hero image */
+
+/* Project Windows */
+#project .project-item {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project .project-item .project-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Testing CSS of Image Hover
+
+#project .project-item .project-link .project-hover {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    background: rgba(254, 209, 54, 0.9);
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#project .project-item .project-link .project-hover .project-hover-content {
+    font-size: 1.25rem;
+    color: #fff;
+    display: block;
+}
+
+#project .project-item .project-link .project-hover:hover  {
+    opacity: 1;
+    display: block;
+} */
+
+/* First Project Window CSS */
+
+#project .project-item .project-link .image-background1 {
+    background-image: url("./Images/stock_image_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* border: 1px solid #ccc; */
+    width: 22rem;
+    height: 17rem;
+}
+
+#project .project-item .project-link .image-background1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#project .project-item .project-link .image-background1:hover .overlay {
+    opacity: 1;
+}
+
+#project .project-item .project-link .image-background1 .overlay .overlay-content {
+    font-size: 1.25rem;
+    color: #fff;
+    display: block;
+}
+
+/* Second Project Window CSS */
+
+#project .project-item .project-link .image-background2 {
+    background-image: url("./Images/stock_image_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* border: 1px solid #ccc; */
+    width: 22rem;
+    height: 17rem;
+}
+
+#project .project-item .project-link .image-background2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#project .project-item .project-link .image-background2:hover .overlay {
+    opacity: 1;
+}
+
+#project .project-item .project-link .image-background2 .overlay .overlay-content {
+    font-size: 1.25rem;
+    color: #fff;
+    display: block;
+}
+
+/* Third Project Window CSS */
+
+#project .project-item .project-link .image-background3 {
+    background-image: url("./Images/stock_image_3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    /* border: 1px solid #ccc; */
+    width: 22rem;
+    height: 17rem;
+}
+
+#project .project-item .project-link .image-background3 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+}
+
+#project .project-item .project-link .image-background3:hover .overlay {
+    opacity: 1;
+}
+
+#project .project-item .project-link .image-background3 .overlay .overlay-content {
+    font-size: 1.25rem;
+    color: #fff;
+    display: block;
+}
+
+/* Project Caption onwards */
+
+#project .project-item .project-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background: #d3ce74;        /* color change ke liye yeh line hai */
+}
+
+#project .project-item .project-caption .project-caption-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#project .project-item .project-caption .project-caption-subheading {
+    font-style: italic;
+    /* font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0; */
+}
