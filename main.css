@@ -129,7 +129,7 @@ body{
     opacity: 0.3;
   }
 /*End of Project*/
-  /* About section*/
+/* About section*/
   
 .about {
   padding: 10px 0 0 0;
@@ -213,16 +213,8 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-	background: #000;
-	clip-path: circle(400px at center 100px);
-	transition: 0.5s;
-	transition-delay: 0.5s;
-}
-.box:hover .img-box
-{
-	clip-path: circle(80px at center 100px);
-	transition-delay: 0s;
+	height: 80%;
+	background: #fff;
 }
 .box .img-box img
 {
@@ -231,58 +223,41 @@ body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
 }
 .box .content
 {
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: -300px;
 	width: 100%;
-	height: 55%;
+	height: 100%;
 	padding: 20px;
 	box-sizing: border-box;
 	text-align: center;
 }
-.box .content h2
+.box .content h4
 {
 	margin: 0;
 	padding: 0;
 }
-.box .content a
+.box .content p
 {
 	text-decoration: none;
-	background: #000;
+	background: #fff;
 	color: #fff;
-	padding: 5px;
+	padding: 1px;
 	display: inline-block;
 }
-.box .content h2,
+/* .box .content h2,
 .box .content p,
 .box .content a
 {
-	opacity: 0;
+	opacity: 1;
 	transition: 0.5s;
 	transform: translateY(20px);
-}
-.box:hover .content h2
-{
-	opacity: 1;
-	transform: translateY(0);
-	transition-delay: 0.5s
-}
- .box:hover .content p
-{
-	opacity: 1;
-	transform: translateY(0);
-	transition-delay: 0.7s
-}
- .box:hover .content a
-{
-	opacity: 1;
-	transform: translateY(0);
-	transition-delay: 0.9s
-}
+} */
+
 /* End of Team Section*/
 /* Blog Section */
 .ribbon{
